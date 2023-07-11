@@ -1,0 +1,193 @@
+@import url('https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css');
+@import url('https://fonts.cdnfonts.com/css/cocogoose');
+@import url('https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE');
+@import url('https://db.onlinewebfonts.com/c/b4e46f03d0e03a9192dc3c2ad1a4e104?family=Cocogoose');
+@import url('https://fonts.cdnfonts.com/css/tahoma');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'NanumSquareAc', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    margin: 0 auto;
+    min-width: 1400px;
+}
+
+/*공통*/
+
+/* header */
+#header_wrap {
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    background-color: #FF5A26;
+    background-size: 1920px 40px;
+    position: fixed;
+    z-index: 99;
+}
+
+.header {
+    padding-top: 2px;
+    margin: 0 auto;
+    width: 1320px;
+}
+
+h1 {
+    padding-top: 4px;
+    display: inline-block;
+}
+
+.gnb {
+    float: right;
+}
+
+.gnb li {
+    float: left;
+    margin-left: 6px;
+}
+
+.gnb>li:nth-child(3) {
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.gnb>li:nth-child(3):hover .submenu_wrap {
+    display: block;
+}
+
+.submenu_wrap {
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    display: none;
+    top: 50px;
+    right: -82px;
+    z-index: 9;
+    background: url(../images/place/submenu_background.png) no-repeat center;
+    background-size: 150px 210px;
+}
+
+.submenu {
+    margin: 36px 0 0 20px;
+    width: 160px;
+    height: 200px;
+}
+
+.submenu>li {
+    float: left;
+    width: 150px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+.submenu li a {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    color: #FF4A00;
+}
+.submenu li a:hover{
+    font-size: 17px;
+}
+
+#section1_wrap{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 120px;
+    height: 900px;
+}
+.join{
+    margin: 50px auto;
+    width: 500px;
+    height: 650px;
+    padding: 50px 50px ;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+    text-align: center;
+    display: inline-block;
+}
+.join h1{
+    font-family: 'COCOGOOSE', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px 0;
+}
+.join strong{
+    text-align: left;
+    display: block;
+    font-size: 20px;
+    padding: 50px 5px 5px 24px;
+}
+
+.join a{
+    margin: 10px auto;
+    display: block;
+    width: 360px;
+    height: 60px;
+    border-radius: 20px;
+}
+.join_btn{
+    color: #fff;
+    font-size: 18px;
+    background-color: #FF4A00;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.sns_join{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+   
+                
+#footer {
+    border-top: #000 0.6px solid;
+    padding: 80px ;
+    height: 100px;
+    text-align: center;
+}
+
+#footer ul {
+    margin: 0 auto;
+    width: 570px;
+}
+
+#footer ul li {
+    float: left;
+    color: #353535;
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+#footer ul li a {
+    color: #353535;
+    font-size: 10px;
+}
+
+#footer ul li a:hover {
+    color: #000;
+    font-weight: bold;
+}
